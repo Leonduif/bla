@@ -353,17 +353,17 @@ th {
   padding: 0; }
 
 .main-nav {
-  background: red;
+  background: blue;
   padding: 10px;
   margin: 0 auto;
-  width: 50%; }
+  width: 80%; }
 
 .main-nav__item {
   display: block;
   background: red; }
 
 .button-primary {
-  background: orange;
+  background: red;
   padding: 10px;
   text-decoration: none;
   width: 20%;
@@ -373,7 +373,7 @@ th {
 
 .container {
   margin: 0 auto;
-  max-width: 300px; }
+  max-width: 1000px; }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvX25hdi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFNBQVMsQ0FBQztFQUNULFVBQVUsRUFBRSxHQUFJLEdBRE4iLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1uYXYge1xyXG5cdGJhY2tncm91bmQ6IHJlZDtcclxufSJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
 
