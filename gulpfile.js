@@ -13,15 +13,15 @@ gulp.task('sass', function(){
 		.pipe(sourcemaps.init())
 		.pipe(sass().on('error', sass.logError))
 		.pipe(sourcemaps.write('./maps'))
-		.pipe(gulp.dest(cssFolder));
+		.pipe(gulp.dest(cssFolder))
+		.pipe(browserSync.stream());
 });
 
-gulp.task('dev', function(){
-	gulp.watch(sassFiles, ['sass']);
-
+gulp.task('dev', ['sass'], function(){
 	browserSync.init({
-        server: {
-            baseDir: "./"
-        }
+        server: './'
     });
+
+	gulp.watch(sassFiles, ['sass']);
+    gulp.watch('index.html').on('change', browserSync.reload);
 });
